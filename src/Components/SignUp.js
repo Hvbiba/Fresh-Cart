@@ -18,7 +18,6 @@ export default function SignUp() {
             const response = await axios.post('https://ecommerce.routemisr.com/api/v1/auth/signup', values);
             
             if (response.data.message === 'success') {
-                setUserData(response.data.token); 
                 navigate('/login');
             }
         } catch (error) {
