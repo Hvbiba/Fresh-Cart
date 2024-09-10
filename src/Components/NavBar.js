@@ -22,7 +22,7 @@ export default function NavBar() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span><i className="fa fa-bars" aria-hidden="true"></i></span>
+              <span className='navbar-toggler-icon'></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarScroll">
               <ul
